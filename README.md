@@ -9,8 +9,8 @@ This project demonstrates a simple web application using FastAPI to predict whet
 
 1. Clone the repository:
    ```bash
-   git clone <repository_url>
-   cd <repository_name>
+   git clone https://github.com/Selva73582/spam-mail-prediction.git
+   cd spam-mail-prediction
    ```
 
 2. Install dependencies:
@@ -40,10 +40,10 @@ This project demonstrates a simple web application using FastAPI to predict whet
 
 ## Dependencies
 
-- `fastapi`: Web framework for building APIs with Python.
-- `uvicorn`: ASGI server implementation used to run FastAPI applications.
-- `joblib`: Library for serialization and deserialization of Python objects (used for model loading).
-- `scikit-learn`: Machine learning library for Python.
+- `fastapi==0.68.0`: Web framework for building APIs with Python.
+- `uvicorn==0.15.0`: ASGI server implementation used to run FastAPI applications.
+- `joblib==1.1.0`: Library for serialization and deserialization of Python objects (used for model loading).
+- `scikit-learn==0.24.2`: Machine learning library for Python.
 
 ## Notes
 
@@ -51,4 +51,3 @@ This project demonstrates a simple web application using FastAPI to predict whet
 - Models (`transformModel.pkl` and `logistic.pkl`) should be trained and saved separately.
 - Customize the HTML template (`form.html`) and FastAPI logic (`main.py`) as per your application's requirements.
 
----
